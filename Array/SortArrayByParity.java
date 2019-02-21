@@ -1,3 +1,5 @@
+package Array;
+
 class SortArrayByParity {
     public int[] sortArrayByParity(int[] A) {
         int temp = 0;

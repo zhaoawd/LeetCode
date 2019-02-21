@@ -1,4 +1,7 @@
+package Array;
+
 import java.util.Arrays;
+
 class SquaresOfASortedArray {
     //Arrays.sort 是快速排序
     public int[] sortedSquares_V1(int[] A) {

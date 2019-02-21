@@ -1,3 +1,5 @@
+package Array;
+
 public class RemoveElement {
 
     public static int removeElement(int[] nums, int val){
@@ -10,12 +12,5 @@ public class RemoveElement {
             nums[i]= nums[i+jump];
         }
         return nums.length;
-    }
-
-    public static void main(String[] args) {
-        int[] arr = {1,2,2,3,4,5,2};
-        int val = 2;
-        int result = RemoveElement.removeElement(arr, val);
-        System.out.print(result);
     }
 }

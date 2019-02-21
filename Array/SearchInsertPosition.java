@@ -1,3 +1,5 @@
+package Array;
+
 public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if (nums.length == 0) {
