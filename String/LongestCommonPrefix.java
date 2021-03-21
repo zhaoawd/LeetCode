@@ -96,4 +96,8 @@ public class LongestCommonPrefix {
         }
         return left.substring(0, min);
     }
+
+
+
+
 }
