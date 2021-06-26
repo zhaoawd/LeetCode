@@ -1,5 +1,7 @@
 package tree;
 
+import DataStructure.TreeNode;
+
 public class PathSum {
 
     public boolean hasPathSum(TreeNode root, int targetSum) {
